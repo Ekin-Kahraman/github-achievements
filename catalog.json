@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-29",
+  "threshold_basis": "Community observations; GitHub does not guarantee these thresholds.",
+  "sources": [
+    "https://docs.github.com/en/account-and-profile/reference/profile-reference#earning-achievements",
+    "https://github.com/Schweinepriester/github-profile-achievements"
+  ],
+  "achievements": [
+    {"id": "pull-shark", "name": "Pull Shark", "metric": "merged pull requests", "tiers": {"default": 2, "bronze": 16, "silver": 128, "gold": 1024}},
+    {"id": "pair-extraordinaire", "name": "Pair Extraordinaire", "metric": "coauthored merged pull requests", "tiers": {"default": 1, "bronze": 10, "silver": 24, "gold": 48}},
+    {"id": "starstruck", "name": "Starstruck", "metric": "stars on one owned repository", "tiers": {"default": 16, "bronze": 128, "silver": 512, "gold": 4096}},
+    {"id": "galaxy-brain", "name": "Galaxy Brain", "metric": "accepted answers to other people's discussions", "tiers": {"default": 2, "bronze": 8, "silver": 16, "gold": 32}},
+    {"id": "quickdraw", "name": "Quickdraw", "metric": "issues or pull requests closed within five minutes", "tiers": {"default": 1}},
+    {"id": "yolo", "name": "YOLO", "metric": "own pull requests merged without code review", "tiers": {"default": 1}},
+    {"id": "public-sponsor", "name": "Public Sponsor", "metric": "public sponsorships", "requires_payment": true, "tiers": {"default": 1}}
+  ]
+}
